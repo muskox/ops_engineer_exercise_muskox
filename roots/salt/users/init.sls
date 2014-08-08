@@ -17,3 +17,9 @@
       - user: {{user}}
 
 {% endfor %}
+
+/etc/sudoers:
+  file.append:
+    - text: |
+        ewdurbin ALL=(ALL) NOPASSWD: ALL
+        spustay ALL=(ALL) NOPASSWD: ALL
