@@ -1,0 +1,7 @@
+/var/log/nginx/service/access.log {
+       size 1
+       rotate 56
+       copytruncate
+       compress
+       missingok
+}
